@@ -1,0 +1,1 @@
+rot13 = lambda m: ''.join([i if not i.isalpha() else chr((ord(i) - 109) % 26 + (i.lower() == 'm') * 26 + 96) if i.islower() else chr((ord(i) - 77) % 26 + (i.lower() == 'm') * 26 + 64) for n, i in enumerate(list(m))])
