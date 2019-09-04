@@ -1,0 +1,2 @@
+def encrypt_this(text):
+    return ' '.join([str(ord(i[0])) if len(i) == 1 else str(ord(i[0]))+i[-1] if len(i) == 2 else str(ord(i[0]))+i[-1]+i[1] if len(i) == 3 else str(ord(i[0]))+i[-1]+i[2:-1]+i[1] for i in text.split()])
