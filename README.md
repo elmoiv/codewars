@@ -1,1 +1,3 @@
-[![Codewars Rank](https://www.codewars.com/users/elmoiv/badges/large)](https://travis-ci.org/elmoiv/goco)
+[![Codewars Rank](https://www.codewars.com/users/elmoiv/badges/small)](https://www.codewars.com/users/elmoiv/)
+
+### Updated solution for my codewars account :)
