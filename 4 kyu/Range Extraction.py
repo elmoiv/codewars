@@ -1,3 +1,5 @@
+# Works only under Python 2.7
+
 def solution(args):
     l, t = [], []
     for i in args:
